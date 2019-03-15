@@ -9,7 +9,7 @@ body{
 }
 h1{
   font-family: 'Lato', sans-serif;
-  color: white;
+  color: darkgrey;
   font-weight: bolder;
   font-size: 50px;
     text-align: center;
@@ -31,22 +31,40 @@ a:hover {
   color: purple;
     text-align: center;
 }
+
+a.btn-secondary {
+color: white;
+  background-color: #2878B5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+a.btn-secondary:hover {
+  background-color: lightgrey;
+  color: grey;
+  border-color: grey
+}
+
+
 #banner{
-    background-image: url("https://unsplash.it/1000/600?random");
+    background-image: url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
     background-size: cover;
     background-position: center;
     padding: 100px;
     text-align: center;
-    color: white
 }
 #banner h1 {
   font-size: 50px;
+  color: #717171;
 }
 #banner p {
   margin-bottom: 40px;
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
+  color: grey;
+  font-style: italic;
 }
 #footer{
   padding: 30px;
@@ -60,6 +78,7 @@ a:hover {
 #footer a:hover {
   color: white;
 }
+
 .card-white {
   background-color: white;
   border-radius: 4px;
@@ -75,13 +94,13 @@ a:hover {
 
 .btn-blue {
   color: white;
-  background-color: #6772e5;
+  background-color: #2878B5;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(50,50,93,.11);
   padding: 15px 20px;
 }
 
 .btn-blue:hover {
-  background-color: #7795f8;
-  color: white;
+  background-color: white;
+  color: #2878B5;
 }
